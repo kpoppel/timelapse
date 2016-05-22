@@ -26,7 +26,7 @@ There are just two scripts: One for running the timelapse - done is a screen ses
 In the timelapse script you must provide 3 things:
 1) The timelapse interval. Default is 6 minutes.
 2) The coordinate of the camera. Use Google maps for this, just copy out the coordinates from the Maps URL.
-   Example: https://www.google.dk/maps/@*55.5386934,11.3729296*,19.75z
+   Example: https://www.google.dk/maps/@55.5386934,11.3729296,19.75z. Here you want the numbers 55... and 11... and add N,E,S,W depending on where in the world it is. Northern Europe is 55N, 11E
 3) URL to the smartphone running the IP Camera app.
 
 ## Running
