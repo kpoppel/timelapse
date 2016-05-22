@@ -10,11 +10,11 @@ Configure the app as you like. I have configured mine to save images in size 128
 
 ## Script requirements
 There are only three requirements:
-1) sunwait (https://sourceforge.net/projects/sunwait4windows/)
+- sunwait (https://sourceforge.net/projects/sunwait4windows/)
    - for making smart choices on the Sun setting or rising
-2) mencoder (apt get install mencoder)
+- mencoder (apt get install mencoder)
    - for making videos
-3) bash
+- bash
    - for running the scripts
 
 Just put the sunwait executable in the same directory as the scripts.
@@ -24,10 +24,10 @@ There are just two scripts: One for running the timelapse - done is a screen ses
 
 ### Configuration of the timelapse script
 In the timelapse script you must provide 3 things:
-1) The timelapse interval. Default is 6 minutes.
-2) The coordinate of the camera. Use Google maps for this, just copy out the coordinates from the Maps URL.
+- The timelapse interval. Default is 6 minutes.
+- The coordinate of the camera. Use Google maps for this, just copy out the coordinates from the Maps URL.
    Example: https://www.google.dk/maps/@55.5386934,11.3729296,19.75z. Here you want the numbers 55... and 11... and add N,E,S,W depending on where in the world it is. Northern Europe is 55N, 11E
-3) URL to the smartphone running the IP Camera app.
+- URL to the smartphone running the IP Camera app.
 
 ## Running
 You should be ready now to do a timelapse. Make sure ample space is available, or setup some automatics to move files to large storage over time.
